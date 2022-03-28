@@ -1,0 +1,28 @@
+.abc{
+     
+    margin-top: 75px;
+    
+    }
+    .bca{
+      
+        margin-left: 550px;
+        margin-bottom:50px
+    
+    }
+    .cba{
+        border:2px black solid;
+        margin-top: 100px;
+        margin-left: 50px;
+        margin-right:100px;
+        border-radius:25px;
+        margin-bottom:1000px;
+        padding:5px;
+        background-color: white;
+        box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .def{
+        background-color: rgb(217, 226, 226);
+        border: 2px black solid;
+        box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 5px;
+    }

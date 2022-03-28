@@ -10,15 +10,16 @@ export class Hide extends Component {
          
  
     } 
-    handlechange=(e)=>this.setState({[e.target.name]:e.target.value}) 
+
+    handleshowage=(e)=>{e.preventDefault();this.setState({showage:true})} 
+    handlehideage=(e)=>{e.preventDefault();this.setState({showage:false})} 
+     handletoggle=(e)=>{e.preventDefault();this.setState({showage:!this.state.showage})} 
+     handlechange=(e)=>this.setState({[e.target.name]:e.target.value}) 
     handleSubmit=(e)=>{e.preventDefault();this.setState({onsubmitted:true})} 
     handleReset=(e)=>{e.preventDefault();this.setState({fname:'', 
     lname:'', 
     age:'', 
     })} 
-    handleshowage=(e)=>{e.preventDefault();this.setState({showage:true})} 
-    handlehideage=(e)=>{e.preventDefault();this.setState({showage:false})} 
-     handletoggle=(e)=>{e.preventDefault();this.setState({showage:!this.state.showage})} 
   
   render() { 
     return ( 
