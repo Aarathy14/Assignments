@@ -1,0 +1,10 @@
+.heading{
+    color:#dbbd85;
+    cursor: pointer;
+}
+.heading1{
+    color:#dbbd85;
+    cursor: pointer;
+    text-decoration: underline;
+    font-size: large;
+}
